@@ -1,0 +1,182 @@
+.titulo {
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 25px;
+    border-bottom: 10px solid #000;
+    font-size: 60px;
+}
+
+.corpo-da-pagina {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px 0;
+}
+
+body {
+	font-family: "Crimson Text", "Times New Romam", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	font-size: 30px;
+}
+
+p {
+	text-align: justify;
+    margin: 20px 0;
+}
+
+.citacoes {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	background-color: #D9E5E3;
+    padding: 20px;
+    margin: 20px 40px;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
+}
+    
+aside h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.navegacao-site {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    width: 15%;
+    position: relative;
+    top: 310px
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+nav a{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+    text-transform: lowercase;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+    padding: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.icones-sociais li {
+	display: inline-block;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+.icones-sociais a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    font-size: 0px;
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+h2 {
+    clear: both;
+}
+
+main {
+    width: 80%;
+    float: left;
+    padding-bottom: 80px;
+}
+
+img, aside {
+/*    width: 15%;*/
+    float: right;
+    border-left: 10px solid #000;
+    border-bottom: 10px solid #000;
+    box-sizing: border-box;
+}
+
+img {
+    width: 310px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+aside {
+/*    position: relative;*/
+/*    top: 310px;*/
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
